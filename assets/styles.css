@@ -109,9 +109,11 @@ textarea:not([rows]) {
     --fw-h1: 900;
     --fw-h2: 700;
     --fw-h3: 600;
+
+    /* Familes */
+    --ff-primary: 'Poppins, sans-serif';
+    --ff-secondary: 'work sans, sans-serif';
 }
-
-
 
 
 body {
@@ -231,6 +233,19 @@ main {
 section {
     margin-bottom: 20px;
 }
+
+
+h1 {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-h1);
+    font-size: var(--ft-h1);
+}
+
+#home {
+    text-align: center;
+}
+
+
 
 footer {
     background-color: #333;
