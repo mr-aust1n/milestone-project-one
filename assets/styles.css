@@ -227,12 +227,17 @@ nav a {
     }
 }
 
-main {
+/* main {
     padding: 20px;
-}
+} */
 
 section {
-    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 #home {
@@ -260,7 +265,30 @@ p {
     font-size: var(--ft-p)
 }
 
+#about {
+    background-color: var(--color-yellow);
+    text-align: center;
+    height: 330px;
+    border: var(--color-black-mid) 1px solid;
 
+}
+
+#about h2,
+#social-media h2 {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-h2);
+    font-size: var(--ft-h2);
+    padding-bottom: 22px;
+}
+
+#social-media {
+    background-color: var(--color-red);
+    text-align: center;
+    height: 330px;
+    border: var(--color-black-mid) 1px solid;
+    margin-top: 32px;
+
+}
 
 
 
@@ -269,5 +297,5 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+
 }
