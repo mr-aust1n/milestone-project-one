@@ -101,8 +101,8 @@ textarea:not([rows]) {
     /* Sizes */
     --ft-h1: 33px;
     --ft-h2: 30px;
-    --ft-h3: 28px;
-    --ft-h4: 22px;
+    --ft-h3: 22px;
+    --ft-h4: 18px;
     --ft-p: 16px;
 
     /* Weight */
@@ -235,9 +235,7 @@ section {
     padding: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-
 }
 
 #home {
@@ -276,25 +274,58 @@ p {
 #about h2,
 #social-media h2,
 #bespoke-websites h2,
-#seo-expert h2 {
+#seo-expert h2,
+#academy h2 {
     font-family: var(--ff-primary);
     font-weight: var(--fw-h2);
     font-size: var(--ft-h2);
     padding-bottom: 22px;
     line-height: 50px;
+    text-align: center;
 }
 
 #bespoke-websites,
 #social-media,
 #seo-expert {
     background-color: var(--color-red);
-    text-align: center;
     height: 330px;
     border: var(--color-black-mid) 1px solid;
     margin-top: 32px;
     padding-bottom: 80px;
 }
 
+#academy h3 {
+    font-size: var(--ft-h3);
+    font-weight: var(--fw-h3);
+}
+
+
+.academy-background {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.mission {
+    background-color: var(--color-red);
+    /* height: 196px; */
+    border: var(--color-black-mid) 1px solid;
+    margin-top: 32px;
+    padding-bottom: 80px;
+}
+
+.instructor {
+    background-color: var(--color-yellow);
+    height: 250px;
+    border: var(--color-black-mid) 1px solid;
+    margin-top: 32px;
+    padding-bottom: 80px;
+}
 
 
 
