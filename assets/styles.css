@@ -274,20 +274,25 @@ p {
 }
 
 #about h2,
-#social-media h2 {
+#social-media h2,
+#bespoke-websites h2,
+#seo-expert h2 {
     font-family: var(--ff-primary);
     font-weight: var(--fw-h2);
     font-size: var(--ft-h2);
     padding-bottom: 22px;
+    line-height: 50px;
 }
 
-#social-media {
+#bespoke-websites,
+#social-media,
+#seo-expert {
     background-color: var(--color-red);
     text-align: center;
     height: 330px;
     border: var(--color-black-mid) 1px solid;
     margin-top: 32px;
-
+    padding-bottom: 80px;
 }
 
 
