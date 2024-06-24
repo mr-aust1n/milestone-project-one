@@ -341,7 +341,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 20px 30px;
+    padding: 20px 30px 0 30px;
 }
 
 .footer-links {
@@ -373,12 +373,8 @@ footer {
     font-size: var(--fs-a);
 }
 
-.footer-newsletter {
-    margin-bottom: 30px;
-}
-
 .footer-newsletter img {
-    max-width: 100px;
+    max-width: 150px;
     margin-bottom: 10px;
 }
 
@@ -423,7 +419,7 @@ footer {
 .footer-bottom {
     background-color: var(--color-red);
     color: var(--color-black-mid);
-    padding: 10px 0;
+    padding: 50px 0;
     text-align: center;
     height: 154px;
     position: relative;
