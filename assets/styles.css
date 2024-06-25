@@ -151,40 +151,35 @@ header {
 
 /* NAV START */
 #menu {
-
     position: fixed;
     right: 750px;
     top: 0;
     height: 100%;
     width: 100%;
-
-    color: var(--color-black-mid);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: right 0.3s ease-in-out;
-    max-height: 650px;
+    max-height: 600px;
     border-bottom: var(--color-black-mid) 2px solid;
     z-index: 1;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     box-shadow: 5px 10px var(--color-black-mid);
+    background-color: var(--color-bgcolor);
     color: var(--color-bgcolor-lighter);
-
-
     align-items: center;
 
 }
 
 #menu a {
     text-decoration: none;
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: var(--fs-h1);
     background-color: var(--color-red);
-    padding: 12px 70px;
+    padding: 5px 50px;
     border: var(--color-black-mid) 2px solid;
-
 }
 
 #menu nav a:hover {
