@@ -104,9 +104,9 @@ textarea:not([rows]) {
     --fs-h3: 22px;
     --fs-h4: 18px;
     --fs-p: 16px;
-    --fs-a: 12px
-        /* Weight */
-        --fw-bold: 600;
+    --fs-a: 12px;
+    /* Weight */
+    --fw-bold: 600;
     --fw-h2: 600;
     --fw-h3: 600;
     --fw-h4: 100;
