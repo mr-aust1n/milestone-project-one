@@ -151,7 +151,7 @@ nav {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--color-red);
+    background-color: var(--color-bgcolor);
     color: var(--color-black-mid);
     display: flex;
     flex-direction: column;
@@ -159,15 +159,30 @@ nav {
     align-items: center;
     transition: right 0.3s ease-in-out;
     max-height: 700px;
-    border-bottom: var(--color-blue) 1px solid;
+    border-bottom: var(--color-black-mid) 2px solid;
     z-index: 1;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 10px var(--color-black-mid);
+    color: var(--color-bgcolor-lighter);
+
 }
 
 nav a {
-    color: var(--color-bgcolor-lighter);
     text-decoration: none;
-    margin: 10px 0;
+    margin: 20px 0;
     font-size: var(--fs-h1);
+    background-color: var(--color-red);
+    padding: 12px 70px;
+    border: var(--color-black-mid) 2px solid;
+
+}
+
+nav a:hover {
+    box-shadow: 5px 10px var(--color-black-mid);
+    transition: 0.3s ease-in-out;
+    border-radius: 44px;
+
 }
 
 .contact-dt {
