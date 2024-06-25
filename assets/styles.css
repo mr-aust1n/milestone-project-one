@@ -131,11 +131,18 @@ body {
 } */
 
 header {
-    background-color: var(--color-yellow);
     color: var(--color-bgcolor-lighter);
     padding: 10px 20px;
     display: flex;
     border: var(--color-black-mid) 1px solid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-yellow);
+}
+
+.desktop-nav {
+    background-color: var(--color-bgcolor);
+
 }
 
 .logo {
@@ -144,12 +151,13 @@ header {
 
 /* NAV START */
 #menu {
+
     position: fixed;
     right: 750px;
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--color-bgcolor);
+
     color: var(--color-black-mid);
     display: flex;
     flex-direction: column;
@@ -163,6 +171,7 @@ header {
     border-bottom-right-radius: 25px;
     box-shadow: 5px 10px var(--color-black-mid);
     color: var(--color-bgcolor-lighter);
+
 
     align-items: center;
 
@@ -185,12 +194,17 @@ header {
 
 }
 
-.contact-dt {
+.call-dt {
     display: none;
 }
 
+
 #desktop-menu {
     display: none;
+}
+
+a:visited {
+    color: var(--color-black-mid);
 }
 
 
@@ -207,19 +221,66 @@ header {
         margin: 0 10px;
     }
 
+
+
+    /* header {} */
+    .call-dt {
+        display: inline;
+        cursor: pointer;
+    }
+
     #desktop-menu {
         gap: 22px;
         display: flex;
-
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        min-height: 80px;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 22px 0;
     }
 
     #desktop-menu a {
         font-size: var(--fs-h4);
+        color: var(--color-bgcolor-lighter);
+        text-decoration: none;
         background-color: var(--color-red);
         padding: 12px 40px;
         border: var(--color-black-mid) 2px solid;
-
+        max-height: 40px;
+        align-items: center;
+        display: flex;
     }
+
+    #desktop-menu a:hover,
+    .call-dt a:hover {
+
+        transition: 0.3s ease-in-out;
+        box-shadow: 5px 10px var(--color-black-mid);
+        transition: 0.3s ease-in-out;
+        border-bottom-right-radius: 30px;
+    }
+
+    .call-dt {
+        color: var(--color-bgcolor-lighter);
+        font-size: var(--fs-h4);
+        text-decoration: none;
+        background-color: var(--color-red);
+        padding: 12px 40px;
+        border: var(--color-black-mid) 2px solid;
+        align-items: center;
+        display: flex;
+        max-height: 40px;
+    }
+
+    .call-dt:hover {
+        transition: 0.3s ease-in-out;
+        box-shadow: 5px 10px var(--color-black-mid);
+        transition: 0.3s ease-in-out;
+        border-bottom-right-radius: 30px;
+    }
+
 
 
 
