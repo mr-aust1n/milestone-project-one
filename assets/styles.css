@@ -147,6 +147,7 @@ header {
 /* NAV START */
 nav {
     position: fixed;
+    right: 750px;
     top: 0;
     height: 100%;
     width: 100%;
