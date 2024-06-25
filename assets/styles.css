@@ -195,7 +195,8 @@ header {
 }
 
 
-#desktop-menu {
+#desktop-menu,
+.desktop-nav {
     display: none;
 }
 
@@ -229,6 +230,10 @@ a:visited {
     .call-dt {
         display: inline;
         cursor: pointer;
+    }
+
+    .desktop-nav {
+        display: flex;
     }
 
     #desktop-menu {
