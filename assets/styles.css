@@ -346,27 +346,113 @@ section {
     padding: 30px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    text-align: left;
 }
 
+/* Hero Section Start*/
+
 #home {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 #home h1 {
     font-family: var(--ff-primary);
     font-weight: var(--fw-bold);
     font-size: var(--fs-h1);
-    line-height: 50px;
-    max-width: 258PX;
-    margin: 0 auto;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: var(--color-black-mid);
 }
 
-/* @media (min-width: 768px) {
-    #home h1 {
-        max-width: 1458PX;
-    }
+#home p {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-p);
+    margin-bottom: 20px;
+    color: var(--color-black-mid);
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+/* .hero-graphic {
+    display: none;
 } */
+
+.learn-more-button {
+    background-color: var(--color-red);
+    color: var(--color-bgcolor-lighter);
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-p);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.learn-more-button:hover {
+    background-color: var(--color-yellow);
+    color: var(--color-black-mid);
+}
+
+@media (min-width: 768px) {
+    #home {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        min-height: 670px;
+    }
+
+    .hero-content {
+        max-width: 45%;
+    }
+}
+
+@media (min-width: 1201px) {
+    #home {
+        min-height: 977px;
+    }
+
+    .hero-graphic {
+        max-width: 50%;
+        text-align: right;
+        /* position: absolute; */
+    }
+
+    .hero-graphic img {
+        max-width: 100%;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: 312px;
+    }
+}
+
+/* Hero Section end*/
 
 
 p {
@@ -381,6 +467,9 @@ p {
     border: var(--color-black-mid) 1px solid;
 
 }
+
+
+
 
 #about h2,
 #social-media h2,
@@ -410,7 +499,6 @@ p {
     font-weight: var(--fw-h3);
 }
 
-
 .academy-background {
     position: relative;
     left: 50%;
@@ -437,6 +525,8 @@ p {
     margin-top: 32px;
     padding-bottom: 80px;
 }
+
+
 
 
 
