@@ -3,6 +3,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* Prevent font size inflation */
@@ -121,6 +122,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--color-bgcolor);
+
 }
 
 /* 
@@ -152,7 +154,7 @@ header {
 /* NAV START */
 #menu {
     position: fixed;
-    right: 750px;
+    right: 850px;
     top: 0;
     height: 100%;
     width: 100%;
@@ -315,10 +317,9 @@ a:visited {
 
     #menu {
         display: none;
+
     }
 }
-
-/* NAV END */
 
 .menu-icon {
     display: block;
@@ -326,7 +327,7 @@ a:visited {
 }
 
 .menu-icon div {
-    width: 25px;
+    width: 35px;
     height: 3px;
     background-color: var(--color-black-mid);
     margin: 5px 0;
@@ -338,16 +339,14 @@ a:visited {
     }
 }
 
-/* main {
-    padding: 20px;
-} */
-
+/* NAV END */
 section {
     padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
+    flex-direction: column;
 }
 
 /* Hero Section Start*/
@@ -391,31 +390,29 @@ section {
 
 }
 
-.hero-content {
-    max-width: 50%;
+
+
+.hero-graphic {
+    display: none;
 }
 
-/* .hero-graphic {
-    display: none;
-} */
-
 .learn-more-button {
+
+    font-size: var(--fs-h1);
     background-color: var(--color-red);
+    padding: 5px 50px;
+    border: var(--color-black-mid) 2px solid;
+    cursor: default;
     color: var(--color-bgcolor-lighter);
-    font-family: var(--ff-secondary);
-    font-size: var(--fs-p);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
+    margin-top: 122px;
+
 }
 
 .learn-more-button:hover {
-    background-color: var(--color-yellow);
-    color: var(--color-black-mid);
+    color: var(--color-bgcolor-lighter);
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 10px var(--color-black-mid);
+    border-bottom-right-radius: 30px;
 }
 
 @media (min-width: 768px) {
@@ -430,6 +427,13 @@ section {
     .hero-content {
         max-width: 45%;
     }
+
+    .hero-graphic {
+        display: block;
+        position: absolute;
+        right: 0px;
+        max-width: 422px;
+    }
 }
 
 @media (min-width: 1201px) {
@@ -440,13 +444,13 @@ section {
     .hero-graphic {
         max-width: 50%;
         text-align: right;
-        /* position: absolute; */
+
     }
 
     .hero-graphic img {
         max-width: 100%;
         height: auto;
-        position: absolute;
+        /* position: absolute; */
         right: 0px;
         top: 312px;
     }
@@ -500,7 +504,6 @@ p {
 }
 
 .academy-background {
-    position: relative;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
@@ -525,8 +528,6 @@ p {
     margin-top: 32px;
     padding-bottom: 80px;
 }
-
-
 
 
 
@@ -571,7 +572,7 @@ footer {
 .footer-column ul li a {
     color: var(--color-black-mid);
     text-decoration: none;
-    font-size: var(--fs-a);
+    font-size: var(--fs-h4);
 }
 
 .footer-newsletter img {
