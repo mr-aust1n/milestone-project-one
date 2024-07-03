@@ -726,10 +726,11 @@ footer {
 }
 
 .footer-newsletter input[type="email"] {
-    padding: 10px;
+    padding: 10px 20px;
     border: 1px solid var(--color-black-mid);
     border-right: none;
     width: 200px;
+    border-radius: 0px;
 }
 
 .footer-newsletter button {
