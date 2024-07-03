@@ -536,7 +536,7 @@ section {
     .services-container {
         justify-content: space-around;
         position: absolute;
-        top: 1290px;
+        top: 1100p;
         gap: 10px;
         flex-direction: row;
     }
