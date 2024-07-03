@@ -618,7 +618,7 @@ section {
     padding: 10px;
     border: 2px solid var(--color-black-mid);
     border-right: none;
-    width: 300px;
+    width: 180px;
     font-family: var(--ff-secondary);
     font-size: var(--fs-p);
     color: var(--color-black-mid);
