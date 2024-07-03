@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="426" viewBox="0 0 1440 426">
+  <g id="Subscribe" style="isolation: isolate">
+    <g id="Frame_89" data-name="Frame 89" style="isolation: isolate">
+      <g id="Frame_89-2" data-name="Frame 89" fill="#fd5a46" stroke="#182335" stroke-width="1" style="isolation: isolate">
+        <rect width="1440" height="426" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1439" height="425" fill="none"/>
+      </g>
+      <text id="Subscribe_Now" data-name="Subscribe Now" transform="translate(537 60)" fill="#182335" font-size="48" font-family="Poppins-Bold, Poppins" font-weight="700" style="isolation: isolate"><tspan x="0.216" y="50">Subscribe Now</tspan></text>
+      <text id="Join_our_newsletter_to_enhance_your_business_with_expert_tips_and_insights._Receive_exclusive_discounts_and_stay_updated_with_the_latest_trends_to_ensure_your_company_stays_ahead_in_the_competitive_market." data-name="Join our newsletter to enhance your business with expert tips and insights. Receive exclusive discounts and stay updated with the latest trends to ensure your company stays ahead in the competitive market." transform="translate(372 172)" fill="#182335" font-size="16" font-family="WorkSans-Regular, Work Sans" style="isolation: isolate"><tspan x="-329.368" y="15">Join our newsletter to enhance your business with expert tips and insights. Receive </tspan><tspan x="-334.216" y="34">exclusive discounts and stay updated with the latest trends to ensure your company </tspan><tspan x="-153.616" y="53">stays ahead in the competitive market.</tspan></text>
+      <g id="Frame_90" data-name="Frame 90" transform="translate(455.5 301.451)" style="isolation: isolate">
+        <rect id="Frame_90-2" data-name="Frame 90" width="529" height="64" fill="none" style="isolation: isolate"/>
+        <g id="Frame_62" data-name="Frame 62" style="isolation: isolate">
+          <g id="Frame_62-2" data-name="Frame 62" fill="#fdf9f8" stroke="#182335" stroke-width="1" style="isolation: isolate">
+            <rect width="401" height="64" stroke="none"/>
+            <rect x="0.5" y="0.5" width="400" height="63" fill="none"/>
+          </g>
+          <text id="Your_Email" data-name="Your Email" transform="translate(158.5 20.549)" fill="#182335" font-size="16" font-family="Poppins-Regular, Poppins" opacity="0.5" style="isolation: isolate"><tspan x="0.28" y="17">Your Email</tspan></text>
+        </g>
+        <g id="Frame_61" data-name="Frame 61" transform="translate(401)" style="isolation: isolate">
+          <g id="Frame_61-2" data-name="Frame 61" fill="#182335" stroke="#182335" stroke-width="1" style="isolation: isolate">
+            <rect width="128" height="64" stroke="none"/>
+            <rect x="0.5" y="0.5" width="127" height="63" fill="none"/>
+          </g>
+          <text id="Send" transform="translate(43 20)" fill="#f8f3ef" font-size="16" font-family="Poppins-Regular, Poppins" style="isolation: isolate"><tspan x="0.816" y="17">Send</tspan></text>
+        </g>
+      </g>
+    </g>
+    <path id="Vector_4" data-name="Vector 4" d="M0,0V191H264.92" transform="translate(1171 0.451)" fill="none" stroke="#182335" stroke-width="2" style="isolation: isolate"/>
+    <path id="Vector_5" data-name="Vector 5" d="M290,86V0H0" transform="translate(974 339.451)" fill="none" stroke="#182335" stroke-width="2" style="isolation: isolate"/>
+    <path id="Vector_3" data-name="Vector 3" d="M0,0H216.35V126H452" transform="translate(3 215.451)" fill="none" stroke="#182335" stroke-width="2" style="isolation: isolate"/>
+  </g>
+</svg>
