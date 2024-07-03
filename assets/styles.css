@@ -90,6 +90,10 @@ textarea:not([rows]) {
     scroll-margin-block: 5ex;
 }
 
+input[type="email"] {
+    border-radius: 0px;
+}
+
 :root {
     /* Colors: */
     --color-yellow: #FFC567;
