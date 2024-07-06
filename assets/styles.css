@@ -4,6 +4,8 @@
 *::after {
     box-sizing: border-box;
     text-decoration: none;
+
+
 }
 
 /* Prevent font size inflation */
@@ -100,7 +102,7 @@ input[type="email"] {
     --color-bgcolor-lighter: #FDF9F8;
 
     /* Sizes */
-    --fs-h1: 33px;
+    --fs-h1: 54px;
     --fs-h2: 30px;
     --fs-h3: 22px;
     --fs-h4: 18px;
@@ -141,6 +143,7 @@ header {
     align-items: center;
     background-color: var(--color-yellow);
     position: sticky;
+
 }
 
 .desktop-nav {
@@ -184,11 +187,17 @@ p {
 #menu a {
     text-decoration: none;
     margin: 10px 0;
-    font-size: var(--fs-h1);
+    font-size: var(--fs-h2);
     background-color: var(--color-red);
     padding: 5px 50px;
     border: var(--color-black-mid) 2px solid;
     cursor: grab;
+    color: var(--color-bgcolor-lighter);
+
+}
+
+#menu a :visited {
+    color: var(--color-bgcolor-lighter);
 
 }
 
@@ -208,17 +217,12 @@ p {
     display: none;
 }
 
-a:visited {
-    color: var(--color-bgcolor-lighter);
-}
 
 
 
 @media (min-width: 768px) {
 
-    a:visited {
-        color: var(--color-black-mid);
-    }
+
 
     nav {
         position: static;
@@ -257,7 +261,7 @@ a:visited {
     }
 
     #desktop-menu a {
-        font-size: var(--fs-h4);
+        font-size: var(--fs-h3);
         color: var(--color-bgcolor-lighter);
         text-decoration: none;
         background-color: var(--color-red);
@@ -374,6 +378,7 @@ section {
     line-height: 1.2;
     margin-bottom: 20px;
     color: var(--color-black-mid);
+    text-align: center;
 }
 
 #home p {
@@ -407,7 +412,7 @@ section {
 
 .learn-more-button {
 
-    font-size: var(--fs-h1);
+    font-size: var(--fs-h2);
     background-color: var(--color-red);
     padding: 5px 50px;
     border: var(--color-black-mid) 2px solid;
@@ -416,6 +421,10 @@ section {
     margin-top: 122px;
     display: ruby;
     font-family: var(--ff-primary);
+}
+
+#home p:nth-of-type(2) {
+    padding-bottom: 33px;
 }
 
 
@@ -436,8 +445,16 @@ section {
         min-height: 670px;
     }
 
+    #home h1 {
+        text-align: left;
+    }
+
     .hero-content {
-        max-width: 45%;
+        max-width: 60%;
+    }
+
+    .hero-content p {
+        max-width: 80%;
     }
 
     .hero-graphic {
@@ -501,6 +518,8 @@ section {
     margin: 0 auto 50px auto;
     color: var(--color-black-mid);
 }
+
+
 
 
 .services-container {
