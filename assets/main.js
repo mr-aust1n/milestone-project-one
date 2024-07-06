@@ -22,13 +22,13 @@ document.addEventListener("DOMContentLoaded", function () {
       clickable: true,
     },
     breakpoints: {
-      // when window width is <= 767px
-      767: {
-        slidesPerView: 1.5,
+      // when window width is <= 820px
+      820: {
+        slidesPerView: 3,
         spaceBetween: 20,
       },
-      // when window width is > 767px
-      768: {
+      // when window width is > 821px
+      821: {
         slidesPerView: 3,
         spaceBetween: 30,
       },
