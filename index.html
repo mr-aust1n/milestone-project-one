@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,7 +18,7 @@
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="description"
-        content="Yap Markting.  The best in the east midlands to get your social media, websites and SEO">
+        content="Yap Marketing.  The best in the east midlands to get your social media, websites and SEO">
     <meta name="keywords" content="SEO, WEBSITES, HTML, CSS, WORDPRESS, ECOMMERCE, ONLINE SHOP ">
     <meta name="author" content="Mr.Aus1n">
 
@@ -31,40 +28,34 @@
 <body>
     <header>
         <div class="logo"><img src="assets/images/yap-logo.png" alt="Yap Marketing Logo"></div>
-        <a class="call-dt" href="te:80087355">call now</a>
+        <a class="call-dt" href="tel:80087355">Call now</a>
         <div class="menu-icon" onclick="toggleMenu()">
             <div></div>
             <div></div>
             <div></div>
         </div>
-        <nav id="menu">
+        <nav id="menu" aria-label="Main Menu">
             <button class="close-btn" onclick="toggleMenu()">X</button>
-            <a href="home.html">home</a>
-            <a href="websites.html">websites</a>
-            <a href="social-media.html">social media</a>
-            <a href="#">portfolio</a>
-            <a href="#">blog</a>
-            <a href="#">contact</a>
-            <a class="call-dt" href="#">call now</a>
-        </nav>
-
-    </header>
-
-
-    <header class="desktop-nav">
-        <nav id="desktop-menu">
             <a href="home.html">Home</a>
             <a href="websites.html">Websites</a>
             <a href="social-media.html">Social Media</a>
             <a href="#">Portfolio</a>
             <a href="#">Blog</a>
             <a href="#">Contact</a>
-
+            <a class="call-dt" href="#">Call now</a>
         </nav>
-
-
     </header>
 
+    <header class="desktop-nav">
+        <nav id="desktop-menu" aria-label="Desktop Menu">
+            <a href="home.html">Home</a>
+            <a href="websites.html">Websites</a>
+            <a href="social-media.html">Social Media</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
     <main>
         <!-- HERO TOP -->
@@ -92,24 +83,24 @@
         <!-- HERO BOTTOM -->
 
         <!-- ABOUT YAP TOP -->
-        <section id="about">
+        <section id="about" role="region" aria-labelledby="about-heading">
             <h2>About Yap Marketing</h2>
             <p>“We create websites, manage social media, and optimise for SEO to enhance your online presence
                 and drive engagement. Our comprehensive approach ensures your brand stands out, reaches the
                 right audience, achieves measurable results, and grows your business effectively.”</p>
             <div class="services-container">
-                <div class="service-box">
+                <div class="service-box" role="article" aria-labelledby="bespoke-websites-heading">
                     <h3>Bespoke Websites</h3>
                     <p>Create bespoke websites tailored to your company’s needs, ensuring a unique online presence and
                         exceptional user experience.</p>
                 </div>
-                <div class="service-box">
+                <div class="service-box" role="article" aria-labelledby="bespoke-websites-heading">
                     <h3>Social Media</h3>
                     <p>Take over social media with tailored strategies, engaging content, and expert management to boost
                         your
                         brand’s presence.</p>
                 </div>
-                <div class="service-box">
+                <div class="service-box" role="article" aria-labelledby="bespoke-websites-heading">
                     <h3>SEO & Google Ranking</h3>
                     <p>Enhance SEO and Google ranking with targeted strategies, quality content, and expert optimisation
                         to
@@ -127,9 +118,9 @@
             <p>Join our newsletter to enhance your business with expert tips and insights. Receive
                 exclusive discounts and stay updated with the latest trends to ensure your company
                 stays ahead in the competitive market.</p>
-            <form class="subscription-form">
-                <input type="email" placeholder="Your Email" required>
-                <button type="submit">Send</button>
+            <form class="subscription-form" aria-label="Newsletter Subscription Form">
+                <input type="email" placeholder="Your Email" required aria-label="Enter your email">
+                <button type="submit" aria-label="Send subscription">Send</button>
             </form>
         </section>
 
@@ -167,16 +158,16 @@
                 </div>
             </div>
             <div class="footer-newsletter">
-                <img src="assets/images/yap-logo.png" alt="Dog Image">
+                <img src="assets/images/yap-logo.png" alt="Dog Logo Image">
                 <p>Join our newsletter for up to date information and Super deals.</p>
                 <form>
-                    <input type="email" placeholder="Enter your email">
-                    <button type="submit">Subscribe Now</button>
-                </form>
-                <div class="footer-social">
-                    <a href="#"><img src="assets/images/yap-facebook.png" alt="Facebook"></a>
-                    <a href="#"><img src="assets/images/yap-instagram.png" alt="Instagram"></a>
-                    <a href="#"><img src="assets/images/yap-linkedin.png" alt="LinkedIn"></a>
+                    <input type="email" placeholder="Enter your email" aria-label="Enter your email">
+                    <button type="submit" aria-label="Subscribe to newsletter">Subscribe Now</button>
+                </form aria-label="Footer Newsletter Subscription Form">
+                <div class="footer-social" aria-label="Social Media Links">
+                    <a href="#" aria-label="Facebook"><img src="assets/images/yap-facebook.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="assets/images/yap-instagram.png" alt="Instagram"></a>
+                    <a href="#" aria-label="LinkedIn"><img src="assets/images/yap-linkedin.png" alt="LinkedIn"></a>
                 </div>
             </div>
         </div>

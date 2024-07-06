@@ -58,11 +58,7 @@ h4 {
     text-wrap: balance;
 }
 
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-    text-decoration-skip-ink: auto;
-    color: currentColor;
-}
+
 
 /* Make images easier to work with */
 img,
@@ -751,8 +747,7 @@ footer {
     border: 1px solid var(--color-black-mid);
     cursor: grab;
     min-width: 150px;
-    margin-right: 32px;
-    display: block;
+    margin-right: 32px
 }
 
 .footer-social a {
