@@ -434,8 +434,6 @@ a.learn-more-button {
     justify-content: center;
 }
 
-
-
 .learn-more-button::after {
     content: "";
     display: inline-block;
@@ -454,8 +452,6 @@ a.learn-more-button {
     box-shadow: 5px 10px var(--color-black-mid);
     border-bottom-right-radius: 30px;
 }
-
-
 
 @media (min-width: 768px) {
     #home {
@@ -488,7 +484,18 @@ a.learn-more-button {
     .hero-graphic:hover {
         transform: scale(1.1);
         transition: 0.3s ease-in-out;
+    }
 
+    .learn-more-button {
+        margin-top: 80px;
+    }
+
+    .learn-more-button {
+        margin-bottom: 80px;
+    }
+
+    #home p:nth-of-type(2) {
+        padding-bottom: 0px;
     }
 }
 
@@ -521,6 +528,7 @@ a.learn-more-button {
     border: var(--color-black-mid) 1px solid;
     display: flex;
     justify-content: flex-start;
+    position: relative;
 }
 
 
@@ -539,9 +547,6 @@ a.learn-more-button {
     margin: 0 auto 50px auto;
     color: var(--color-black-mid);
 }
-
-
-
 
 .services-container {
     display: flex;
@@ -574,6 +579,14 @@ a.learn-more-button {
     color: var(--color-bgcolor-lighter);
 }
 
+.bespoke {
+    background-color: var(--color-bgcolor-lighter);
+}
+
+.bespoke :hover {
+    background-color: var(--color-red);
+}
+
 @media (min-width: 768px) {
 
     .service-box {
@@ -584,7 +597,7 @@ a.learn-more-button {
     .services-container {
         justify-content: space-around;
         position: absolute;
-        top: 1190px;
+        top: 190px;
         gap: 10px;
         flex-direction: row;
     }
@@ -592,29 +605,50 @@ a.learn-more-button {
     #about {
         height: 330px;
     }
-
 }
 
 @media (min-width: 1200px) {
     .services-container {
         justify-content: space-between;
-        top: 1400px;
-        gap: 100px;
+        gap: 30px;
     }
 }
+
+
+/* SWIPER TOP */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SWIPER BOTTOM */
 
 /* NEWSLETTER TOP */
 
 #subscribe {
-    background: url('http://mr-aust1n.github.io/milestone-project-one/assets/images/subscribe-yapp.svg') no-repeat center center;
-    background-size: cover;
     text-align: center;
-    padding: 0px 120px 30px 120px;
+    padding: 0px 30px 30px 30px;
     border: 2px solid var(--color-black-mid);
     position: relative;
     color: var(--color-black-mid);
     background-color: var(--color-yellow);
-    margin: 750px 0px 0px 0px;
+    margin: 900px 0px 0px 0px;
 }
 
 #subscribe::before {
@@ -653,6 +687,7 @@ a.learn-more-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100px;
     /* top: 52px; */
 }
 
@@ -690,6 +725,7 @@ a.learn-more-button {
         width: 400px;
     }
 
+
     .footer-links .footer-column:nth-child(3) {
         display: inline;
     }
@@ -701,10 +737,15 @@ a.learn-more-button {
     .subscription-form {
         top: 70px;
         padding: 0px 120px 100px 120px;
+
     }
 
     #subscribe {
+        background: url('http://mr-aust1n.github.io/milestone-project-one/assets/images/subscribe-yapp.svg') no-repeat center center;
+        background-size: cover;
+        background-color: var(--color-yellow);
         margin: 290px 0px 30px 0px;
+        padding: 0px 120px 30px 120px;
     }
 }
 
