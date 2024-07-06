@@ -415,7 +415,6 @@ section {
 }
 
 .learn-more-button {
-
     font-size: var(--fs-h2);
     background-color: var(--color-red);
     padding: 5px 50px;
@@ -426,6 +425,15 @@ section {
     display: ruby;
     font-family: var(--ff-primary);
 }
+
+a.learn-more-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 340px;
+    justify-content: center;
+}
+
 
 
 .learn-more-button::after {
@@ -446,6 +454,8 @@ section {
     box-shadow: 5px 10px var(--color-black-mid);
     border-bottom-right-radius: 30px;
 }
+
+
 
 @media (min-width: 768px) {
     #home {
