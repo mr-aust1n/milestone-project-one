@@ -561,8 +561,8 @@ a.learn-more-button {
 
     .services-container {
         justify-content: space-around;
-        position: absolute;
-        top: 190px;
+        position: relative;
+        top: 90px;
         gap: 10px;
         flex-direction: row;
     }
@@ -672,7 +672,6 @@ a.select-package-button {
     position: relative;
     color: var(--color-black-mid);
     background-color: var(--color-yellow);
-    margin: 900px 0px 0px 0px;
     z-index: 1;
 }
 

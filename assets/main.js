@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //SWIPER BOTTOM
 
+// SCROLL CLOSE TOP
+
 function toggleMenu() {
   var menu = document.getElementById("menu");
   if (menu.style.right === "0px") {
