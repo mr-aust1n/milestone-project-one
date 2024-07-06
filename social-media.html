@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
@@ -15,14 +14,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="description"
         content="Yap Marketing.  The best in the east midlands to get your social media, websites and SEO">
     <meta name="keywords" content="SEO, WEBSITES, HTML, CSS, WORDPRESS, ECOMMERCE, ONLINE SHOP ">
     <meta name="author" content="Mr.Aus1n">
-
     <title>Yap Marketing</title>
 </head>
 
@@ -40,9 +38,9 @@
             <a href="index.html">Home</a>
             <a href="websites.html">Websites</a>
             <a href="social-media.html">Social Media</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <a href="comingsoon.html">Portfolio</a>
+            <a href="comingsoon.html">Blog</a>
+            <a href="comingsoon.html">Contact</a>
             <a class="call-dt" href="#">Call now</a>
         </nav>
     </header>
@@ -52,9 +50,9 @@
             <a href="index.html">Home</a>
             <a href="websites.html">Websites</a>
             <a href="social-media.html">Social Media</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <a href="comingsoon.html">Portfolio</a>
+            <a href="comingsoon.html">Blog</a>
+            <a href="comingsoon.html">Contact</a>
         </nav>
     </header>
 
@@ -86,45 +84,58 @@
         </section>
         <!-- HERO BOTTOM -->
 
-        <!-- ABOUT YAP TOP -->
-        <section id="about" role="region" aria-labelledby="about-heading">
+        <!-- SWIPER TOP -->
+        <section id="swiperBG" role="region" aria-labelledby="about-heading">
             <h2>Bespoke Websites</h2>
             <p>Explore our bespoke website services in React, HTML, or WordPress. Tailored to your needs, our expert
                 developers ensure
                 a unique, engaging, and responsive online presence to set your business apart in the digital world.</p>
-            <div class="services-container">
-                <div class="service-box bespoke" role="article" aria-labelledby="bespoke-websites-heading">
-                    <h3>BASIC PLAN</h3>
-                    <p>CIdeal for a company with the needs of one or two pages for this company</p>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h3>BASIC PLAN</h3>
+                        <p>Perfect for a small business aiming to establish an online presence with one or two pages to
+                            showcase core services, a
+                            brief company overview, and essential contact information, all designed to engage visitors
+                            effectively.
+                        </p>
+                        <a href="contact" class="select-package-button">Select Package</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <h3>STANDARD PLAN</h3>
+                        <p>Great for businesses seeking to build a strong brand identity with up to four pages,
+                            including detailed service
+                            descriptions, a blog for regular updates, and a contact page, offering a robust platform to
+                            connect with their audience.</p>
+                        <a href="contact" class="select-package-button">Select Package</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <h3>PREMIUM PLAN</h3>
+                        <p>Designed for ambitious enterprises ready to dominate the digital space with a comprehensive
+                            website featuring multiple
+                            pages, advanced functionalities, a dynamic blog, and integrated social media, ensuring
+                            maximum impact and engagement.</p>
+                        <a href="contact" class="select-package-button">Select Package</a>
+                    </div>
                 </div>
-                <div class="service-box bespoke" role="article" aria-labelledby="bespoke-websites-heading">
-                    <h3>STANDARD PLAN</h3>
-                    <p>Ideal for a company that wants to get their name out with a maximum of 4 pages.</p>
-                </div>
-                <div class="service-box bespoke" role="article" aria-labelledby="bespoke-websites-heading">
-                    <h3>PREMIUM PLAN</h3>
-                    <p>Tailored for dedicated companies that want to hit the World Wide Web hard!</p>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
-        <!-- ABOUT YAP BOTTOM -->
-
-        <!-- NEWSLETTER TOP -->
-
-        <section id="subscribe">
-            <h2>Subscribe Now</h2>
-            <p>Join our newsletter to enhance your business with expert tips and insights. Receive
-                exclusive discounts and stay updated with the latest trends to ensure your company
-                stays ahead in the competitive market.</p>
-            <form class="subscription-form" aria-label="Newsletter Subscription Form">
-                <input type="email" placeholder="Your Email" required aria-label="Enter your email">
-                <button type="submit" aria-label="Send subscription">Send</button>
-            </form>
+        <!-- SWIPER BOTTOM -->
+        <!-- SEO SECTION TOP -->
+        <section id="seoSection">
+            <h2>Yap Marketing’s Bespoke Webpages</h2>
+            <p>Explore our bespoke website services in React, HTML, or WordPress. Tailored to your needs,
+                our
+                expert
+                developers ensure
+                a unique, engaging, and responsive online presence to set your business apart in the digital
+                world.</p>
         </section>
-
-        <!-- NEWSLETTER BOTTOM  -->
+        <!-- SEO SECTION BOTTOM -->
     </main>
+
     <footer>
         <div class="footer-container">
             <div class="footer-links">
@@ -132,27 +143,27 @@
                     <h4>Website Links</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Get in touch</a></li>
-                        <li><a href="#">FAQs</a></li>
+                        <li><a href="comingsoon.html">About</a></li>
+                        <li><a href="comingsoon.html">Get in touch</a></li>
+                        <li><a href="comingsoon.html">FAQs</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="seo.html">SEO</a></li>
+                        <li><a href="comingsoon.html">SEO</a></li>
                         <li><a href="social-media.html">Social Media</a></li>
-                        <li><a href="#">Apps</a></li>
+                        <li><a href="comingsoon.html">Apps</a></li>
                         <li><a href="websites.html">Websites</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Website Links</h4>
                     <ul>
-                        <li><a href="#">Certifications</a></li>
-                        <li><a href="#">Google Certified</a></li>
-                        <li><a href="#">Facebook Qualified</a></li>
-                        <li><a href="#">TikTok Qualified </a></li>
+                        <li><a href="comingsoon.html">Certifications</a></li>
+                        <li><a href="comingsoon.html">Google Certified</a></li>
+                        <li><a href="comingsoon.html">Facebook Qualified</a></li>
+                        <li><a href="comingsoon.html">TikTok Qualified </a></li>
                     </ul>
                 </div>
             </div>
@@ -174,12 +185,8 @@
             <p>Copyrighted © 2024 MrAust1n</p>
         </div>
     </footer>
-    <script src="assets/main.js">
 
-
-    </script>
-
-
+    <script src="assets/main.js"></script>
 </body>
 
 </html>
