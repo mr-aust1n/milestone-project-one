@@ -431,12 +431,13 @@ section {
 .learn-more-button::after {
     content: "";
     display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-image: url('/path/to/button-arrow.png');
+    width: 34px;
+    height: 34px;
+    background-image: url('http://mr-aust1n.github.io/milestone-project-one/assets/images/button-arrow.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 10px;
+    margin-left: 30px;
+
 }
 
 .learn-more-button:hover {
