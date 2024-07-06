@@ -159,13 +159,14 @@ p {
     transition: right 0.3s ease-in-out;
     max-height: 600px;
     border-bottom: var(--color-black-mid) 2px solid;
-    z-index: 1;
+    z-index: 1000;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     box-shadow: 5px 10px var(--color-black-mid);
     background-color: var(--color-bgcolor);
     color: var(--color-bgcolor-lighter);
     align-items: center;
+
 }
 
 #menu a {
@@ -177,6 +178,7 @@ p {
     border: var(--color-black-mid) 2px solid;
     cursor: grab;
     color: var(--color-bgcolor-lighter);
+
 }
 
 #menu a :visited {
@@ -492,7 +494,7 @@ a.learn-more-button {
     border: var(--color-black-mid) 1px solid;
     display: flex;
     justify-content: flex-start;
-    position: relative;
+    /* position: relative; */
 }
 
 #about,
@@ -601,6 +603,7 @@ a.learn-more-button {
     display: flex !important;
     flex-direction: column;
     min-height: 600px;
+    z-index: 1;
 }
 
 .swiper-pagination {
@@ -615,6 +618,7 @@ a.learn-more-button {
     margin-bottom: 30px;
     font-family: var(--ff-primary);
     font-size: var(--fs-h4);
+    z-index: 1;
 }
 
 a.select-package-button {
@@ -627,6 +631,7 @@ a.select-package-button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .swiper-slide:hover {
@@ -646,6 +651,7 @@ a.select-package-button {
     position: relative;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 
 }
 
@@ -667,6 +673,7 @@ a.select-package-button {
     color: var(--color-black-mid);
     background-color: var(--color-yellow);
     margin: 900px 0px 0px 0px;
+    z-index: 1;
 }
 
 #subscribe::before {
@@ -682,7 +689,7 @@ a.select-package-button {
 #subscribe p,
 .subscription-form {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 #subscribe h2 {
@@ -773,6 +780,7 @@ footer {
     font-family: Arial, sans-serif;
     line-height: 50PX;
     position: relative;
+    z-index: 1;
 
 }
 

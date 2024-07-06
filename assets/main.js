@@ -14,7 +14,7 @@ function toggleMenu() {
 
 document.addEventListener("DOMContentLoaded", function () {
   // Swiper initialization
-  var swiper = new Swiper(".mySwiper", {
+  var swiperBG = new Swiper(".mySwiper", {
     slidesPerView: 1.5,
     spaceBetween: 30,
     pagination: {
@@ -37,3 +37,21 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //SWIPER BOTTOM
+
+function toggleMenu() {
+  var menu = document.getElementById("menu");
+  if (menu.style.right === "0px") {
+    menu.style.right = "-750px";
+    menu.classList.remove("toggled");
+  } else {
+    menu.style.right = "0px";
+    menu.classList.add("toggled");
+  }
+}
+
+document.addEventListener("scroll", function (e) {
+  var menu = document.getElementById("menu");
+  if (menu.classList.contains("toggled")) {
+    toggleMenu();
+  }
+});
