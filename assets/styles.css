@@ -381,7 +381,7 @@ section {
     padding: 5px 50px;
     border: var(--color-black-mid) 2px solid;
     cursor: grab;
-    color: var(--color-bgcolor-lighter);
+    color: var(--color-black-mid);
     margin-top: 122px;
     display: ruby;
     font-family: var(--ff-primary);
@@ -590,7 +590,9 @@ a.learn-more-button {
     margin-top: 30px;
 }
 
-
+#swiperBG p {
+    width: auto;
+}
 
 .swiper-slide {
     text-align: center;
