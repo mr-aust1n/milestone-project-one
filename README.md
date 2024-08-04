@@ -1,6 +1,6 @@
 # [Yap Marketing](https://github.com/mr-aust1n/milestone-project-one "Repo")
 
-# [Yap Marketing](https://github.com/mr-aust1n/milestone-project-one "GHPages")
+# [Yap Marketing](https://mr-aust1n.github.io/milestone-project-one/?nocache=true "Live Site")
 
 - Yap Marketing is a simple Website for marketing company
 - Yap Marketing has been designed in adobe xd to help me create UI/UX before any code began
