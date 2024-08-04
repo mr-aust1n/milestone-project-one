@@ -66,9 +66,9 @@ document.querySelectorAll(".service-box .read-more").forEach(function (link) {
     const content = this.previousElementSibling;
     content.classList.toggle("expanded");
     if (content.classList.contains("expanded")) {
-      this.textContent = "Read Less";
+      this.textContent = "READ LESS";
     } else {
-      this.textContent = "Read More";
+      this.textContent = "READ MORE";
     }
   });
 });
