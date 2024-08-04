@@ -667,13 +667,14 @@ a.select-package-button {
 /* SEO SECTION BOTTOM */
 
 /* NEWSLETTER TOP */
-#subscribe {
+#subscribe,
+#video {
     text-align: center;
     padding: 0px 30px 30px 30px;
     border: 2px solid var(--color-black-mid);
     position: relative;
     color: var(--color-black-mid);
-    background-color: var(--color-yellow);
+    background-color: var(--color-red);
     z-index: 1;
 }
 
@@ -693,7 +694,8 @@ a.select-package-button {
     z-index: 1;
 }
 
-#subscribe h2 {
+#subscribe h2,
+#video h2 {
     font-family: var(--ff-primary);
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
@@ -701,7 +703,8 @@ a.select-package-button {
     color: var(--color-black-mid);
 }
 
-#subscribe p {
+#subscribe p,
+#video p {
     font-family: var(--ff-secondary);
     font-size: var(--fs-p);
     max-width: 800px;
@@ -763,10 +766,11 @@ a.select-package-button {
         padding: 0px 120px 100px 120px;
     }
 
-    #subscribe {
+    #subscribe,
+    #video {
         background: url('http://mr-aust1n.github.io/milestone-project-one/assets/images/subscribe-yapp.svg') no-repeat center center;
         background-size: cover;
-        background-color: var(--color-yellow);
+        background-color: var(--color-red);
         margin: 290px 0px 30px 0px;
         padding: 0px 120px 30px 120px;
     }
@@ -774,6 +778,15 @@ a.select-package-button {
 
 /* NEWSLETTER BOTTOM */
 
+
+/* VIDEO TOP */
+
+#video {
+    background-color: var(--color-yellow);
+    margin-top: 130px;
+}
+
+/* VIDEO BOTTOM */
 
 /* FOOTER TOP */
 footer {
