@@ -57,3 +57,18 @@ document.addEventListener("scroll", function (e) {
     toggleMenu();
   }
 });
+
+// READ MORE
+
+document.querySelectorAll(".service-box .read-more").forEach(function (link) {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+    const content = this.previousElementSibling;
+    content.classList.toggle("expanded");
+    if (content.classList.contains("expanded")) {
+      this.textContent = "Read Less";
+    } else {
+      this.textContent = "Read More";
+    }
+  });
+});

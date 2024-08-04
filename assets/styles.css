@@ -480,11 +480,12 @@ a.learn-more-button {
 /* Hero Section end*/
 #about,
 #seoSection,
-#swiper {
+#swiper #caseStudies {
     padding: 40px 20px;
 }
 
 #about,
+#caseStudies,
 #seoSection,
 #swiperBG {
     background-color: var(--color-yellow);
@@ -498,6 +499,7 @@ a.learn-more-button {
 }
 
 #about,
+#caseStudies,
 #swiperBG h2 {
     font-family: var(--ff-primary);
     font-weight: var(--fw-h2);
@@ -507,6 +509,7 @@ a.learn-more-button {
 }
 
 #about,
+#caseStudies,
 #swiperBG>p {
     font-family: var(--ff-secondary);
     font-size: var(--fs-p);
@@ -515,7 +518,8 @@ a.learn-more-button {
     color: var(--color-black-mid);
 }
 
-.services-container {
+.services-container,
+.user-container {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -553,6 +557,11 @@ a.learn-more-button {
     background-color: var(--color-red);
 }
 
+#caseStudies h4 {
+    color: var(--color-black-mid);
+    text-decoration: underline;
+}
+
 @media (min-width: 768px) {
     .service-box {
         flex: 1 1 250px;
@@ -567,17 +576,59 @@ a.learn-more-button {
         flex-direction: row;
     }
 
+    .user-container {
+        justify-content: space-around;
+        top: 90px;
+        gap: 10px;
+        flex-direction: row;
+    }
+
     #about {
         height: 330px;
     }
+
+
 }
 
 @media (min-width: 1200px) {
-    .services-container {
+
+    .services-container,
+    .user-container {
         justify-content: space-between;
         gap: 30px;
     }
 }
+
+/* USER STORES TOP*/
+.service-box .content {
+    max-height: 200px;
+    /* Adjust based on how much you want to show initially */
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.5s ease;
+}
+
+.service-box .content.expanded {
+    max-height: 1000px;
+    /* Large enough to show all content */
+}
+
+.service-box .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.service-box .read-more:hover {
+    text-decoration: underline;
+}
+
+/* USER STORES BOTTOM*/
+
+
 
 /* SWIPER TOP */
 
