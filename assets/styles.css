@@ -616,7 +616,7 @@ a.learn-more-button {
 .service-box .read-more {
     display: inline-block;
     margin-top: 10px;
-    color: #0066cc;
+    color: var(--color-black-mid);
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
@@ -624,6 +624,15 @@ a.learn-more-button {
 
 .service-box .read-more:hover {
     text-decoration: underline;
+}
+
+
+@media (min-width: 768px) {
+    .user-container>.service-box {
+        flex: 1 1 250px;
+        max-width: 450px;
+    }
+
 }
 
 /* USER STORES BOTTOM*/
