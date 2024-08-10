@@ -861,6 +861,67 @@ a.select-package-button {
 
 /* VIDEO BOTTOM */
 
+
+/* CONTACT US TOP */
+#contact {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color-red);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-yellow);
+    color: var(--color-black-mid);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--color-bgcolor-lighter);
+}
+
+/* CONTACT US BOTTOM */
+
 /* FOOTER TOP */
 footer {
     color: var(--color-black-mid);
