@@ -33,22 +33,19 @@
 
 [Features](#features)
 
-- [Future Features](#future-features)
-
 [Testing](TESTING.md)
+
+[SDLC](#sdlc)
 
 [Deployment](#deployment)
 
 - [Local Deployment](#local-deployment)
 
-  - [Cloning](#cloning)
-  - [Forking](#forking)
+- [gh-deployment](#gh-deployment)
 
 - [Local vs Deployment](#local-vs-deployment)
 
 [Credits](#credits)
-
-- [Media](#media)
 
 </details>
 
@@ -176,9 +173,71 @@ Mobile Menu
 
 [screenshot](documentation/images/mobileM.png)
 
+## SDLC
+
+The development of the Yap Marketing website followed the traditional Waterfall methodology, a linear and sequential approach to software development. Below is a brief overview of the stages involved:
+
+### 1. Requirement Analysis
+
+- **Objective:** Gather and document all requirements for the website.
+- **Activities:** Conducted discussions and brainstorming sessions to define the site's purpose, target audience, and key features.
+- **Output:** Detailed requirements document outlining the features and functionalities of Yap Marketing.
+
+### 2. System Design
+
+- **Objective:** Design the overall structure and user interface of the website.
+- **Activities:** Created wireframes for mobile, tablet, and desktop views using Adobe XD to visualise the design and layout.
+- **Output:** System Design Document, including finalised wireframes and design elements, setting the foundation for development.
+
+### 3. Implementation (Coding)
+
+- **Objective:** Develop the website according to the design specifications.
+- **Activities:** Implemented the website's front-end using HTML, CSS, and JavaScript, with a focus on responsive design for various devices.
+- **Output:** Fully functional website codebase, adhering to the initial design and requirements.
+
+### 4. Integration and Testing
+
+- **Objective:** Ensure the website works as intended across different browsers and devices using devtools.
+- **Activities:** Performed extensive testing for browser compatibility, responsiveness, accessibility, and code validation. Addressed any bugs or issues discovered during testing.
+- **Output:** Validated and tested website, with bug fixes applied as necessary.
+
+### 5. Deployment
+
+- **Objective:** Deploy the website to a live environment for public access after each section was complete.
+- **Activities:** Deployed the website on GitHub Pages, making it accessible to users. Monitored the deployment for any post-launch issues.
+- **Output:** Live website accessible at [Yap Marketing](https://mr-aust1n.github.io/milestone-project-one/?nocache=true).
+
+### 6. Maintenance
+
+- **Objective:** Provide ongoing support and updates to the website.
+- **Activities:** Addressed user feedback, performed updates, and fixed any new issues that arose post-deployment.
+- **Output:** Maintained and updated website with continuous monitoring and improvements.
+
 ## Deployment
 
 ## Local Deployment
 
 For my local deployment I used 'Five Server' This allowed me to deploy on my network and and by putting in the ip address given I could look at the site as long as it was on the same wifi.
 [screenshot](documentation/deploy/local_deploy.png)
+
+## GH Deployment
+
+To deploy my work to Github or create branches I used Github Desktop. I prefer a GUI interface over a cli.
+
+[screenshot](documentation/deploy/gh_desktop.png)
+
+## local vs deployment
+
+Deploying locally was so much better to see what was happeing when I edited my code. If I did too many commits in a short space of time I would end up with continuous deployment failures. I had to wait as long as possible between each push.
+[screenshot](documentation/deploy/deploy_error.png)
+
+## Credits
+
+[Boiler plate]
+I have always found starting with a blank document hand. Over my time I have created a boiler plate to help my project start off. This boiler plate consists of a simple javascript mobile menu and a static html layout.
+
+[CSS RESET]
+When ever I start a new project, I always use Josh Comeau's CSS reset. (https://www.joshwcomeau.com/css/custom-css-reset/)I find this helps with unwanted elements and helps my site as intended without loading the default CSS for each browser.
+
+[Swiper JS]
+To allow a better user experience on my site I have used Swiper JS (http://swiperjs.com). This allows elements to run horizontally and the user can swiper left and right. This saves space on a mobile device as each element does not have to go on top of each other.s
