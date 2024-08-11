@@ -224,7 +224,7 @@ For my local deployment I used 'Five Server' This allowed me to deploy on my net
 
 To deploy my work to Github or create branches I used Github Desktop. I prefer a GUI interface over a cli.
 
-[screenshot](documentation/deploy/gh_desktop.png)
+[screenshot](documentation/deploy/gh_desktop.png) [screenshot](documentation/deploy/branches.png)
 
 ## local vs deployment
 
