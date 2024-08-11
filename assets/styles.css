@@ -801,7 +801,7 @@ a.select-package-button {
 
 .subscription-form button:hover {
     background-color: var(--color-yellow);
-    color: var (--color-black-mid);
+    color: var(--color-black-mid);
 }
 
 .footer-links .footer-column:nth-child(3) {
@@ -988,7 +988,7 @@ footer {
 
 .footer-newsletter input[type="email"] {
     padding: 10px 20px;
-    border: 1px solid var (--color-black-mid);
+    border: 1px solid var(--color-black-mid);
     border-right: none;
     width: 180px;
 }
