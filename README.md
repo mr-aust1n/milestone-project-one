@@ -23,8 +23,8 @@
 
 [User Stories](#user-stories)
 
-- [New site Users](#new-site-users)
-- [Returning Site Users](#returning-site-users)
+- [New site Users](#new-site-users) also see [Testing](TESTING.md)
+- [Returning Site Users](#returning-site-users)[Testing](TESTING.md)
 
 [Wireframes](#wireframes)
 
@@ -35,7 +35,7 @@
 
 - [Future Features](#future-features)
 
-[Testing](#testing)
+[Testing](TESTING.md)
 
 [Deployment](#deployment)
 
@@ -48,11 +48,7 @@
 
 [Credits](#credits)
 
-- [Content and Code](#content-and-code)
-
 - [Media](#media)
-
-- [Acknowledgments](#acknowledgements)
 
 </details>
 
@@ -131,6 +127,8 @@ I have used CSS `:root` variables to easily update the global colour scheme by c
 
 ## User Stories
 
+See [Testing](TESTING.md)
+
 ### New Site Users
 
 - As a new site user, I would like to know what the site is about, so that I understand what the site does.
@@ -161,17 +159,26 @@ To follow best practice, wireframes were developed for mobile, tablet, and deskt
 
 ## Features
 
+I have included the following features:
+
+Contact Form
+Easy Call from the menu
+
 **Footer Yap Marketing**  
 The 'Footer' is a simple access for when you get to the bottom of the page.  
 [screenshot](documentation/images/footer.png)
-
-                          |
 
 **Yap Marketing Menu**
 Desktop Menu  
 [screenshot](documentation/images/dtmenu.png)
 
-     Mobile Menu
+Mobile Menu
 
-[screenshot](documentation/images/mobileM.png)  
- |
+[screenshot](documentation/images/mobileM.png)
+
+## Deployment
+
+## Local Deployment
+
+For my local deployment I used 'Five Server' This allowed me to deploy on my network and and by putting in the ip address given I could look at the site as long as it was on the same wifi.
+[screenshot](documentation/deploy/local_deploy.png)
