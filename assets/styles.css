@@ -235,7 +235,7 @@ p {
 
     #desktop-menu a {
         font-size: var(--fs-h3);
-        color: var(--color-bgcolor-lighter);
+        color: var(--color-black-mid);
         text-decoration: none;
         background-color: var(--color-red);
         padding: 12px 40px;
@@ -253,7 +253,7 @@ p {
     }
 
     .call-dt {
-        color: var(--color-bgcolor-lighter);
+        color: var(--color-black-mid);
         font-size: var(--fs-h4);
         text-decoration: none;
         background-color: var(--color-red);
@@ -400,7 +400,7 @@ a.learn-more-button {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background-image: url('http://mr-aust1n.github.io/milestone-project-one/assets/images/button-arrow.svg');
+    background-image: url('https://mr-aust1n.github.io/milestone-project-one/assets/images/button-arrow.svg');
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 30px;
@@ -602,7 +602,6 @@ a.learn-more-button {
 /* USER STORES TOP*/
 .service-box .content {
     max-height: 200px;
-    /* Adjust based on how much you want to show initially */
     overflow: hidden;
     position: relative;
     transition: max-height 0.5s ease;
@@ -610,7 +609,6 @@ a.learn-more-button {
 
 .service-box .content.expanded {
     max-height: 1000px;
-    /* Large enough to show all content */
 }
 
 .service-box .read-more {
@@ -827,7 +825,7 @@ a.select-package-button {
     }
 
     #subscribe {
-        background: url('http://mr-aust1n.github.io/milestone-project-one/assets/images/subscribe-yapp.svg') no-repeat center center;
+        background: url('https://mr-aust1n.github.io/milestone-project-one/assets/images/subscribe-yapp.svg') no-repeat center center;
         background-size: cover;
         background-color: var(--color-red);
         margin: 290px 0px 30px 0px;

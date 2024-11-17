@@ -27,7 +27,7 @@ Return back to the [README.md](README.md) file.
 
 </details>
 
-## Code Validation
+## Code Validation (HTML & CSS Validation is mentioned in the readme.md file)
 
 ### HTML
 
