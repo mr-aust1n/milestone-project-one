@@ -99,7 +99,6 @@ I have tested my deployed project using the Lighthouse Audit tool that is in chr
 ![screenshot](documentation/browser/lighthouse.png) | ![screenshot](documentation/browser/lighthouse_errors.png) | Few warnings about best practices |
 
 - I am able to ignore these as I can not get HTTPS on github pages.
-- The second warning was that my google video was using 3rd party coockies and after checking the internet, there is not much I can do about this.
 
 ## User Story Testing
 
