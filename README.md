@@ -123,19 +123,11 @@ Below are two mockup images of the Yap Marketing website created using the adobe
 
 <em>2.2 Write custom CSS code that passes through the official (Jigsaw) validator with no issues.</em>
 
-- I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files. I did have a few issues as shown below but this is then corrected in the second screenshot
-
-|       FAIL: var colours not selected properly       |                   Pass: No Errors                    |
-| :-------------------------------------------------: | :--------------------------------------------------: |
-| ![screenshot](documentation/validator/css_fail.png) | ![screenshot](/documentation/validator/css_pass.png) |
+- [Testing](TESTING.md)
 
 <em>2.3 Write custom HTML code that passes through the official W3C validator with no issues.</em>
 
-- I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files. I did one page at a time ato check for any errors. Once I had discovered the errors I quickly rectified them by removing unnecessary aria labels
-
-|              Warning: Unnecessary Role               |                    Pass: No Errors                    |
-| :--------------------------------------------------: | :---------------------------------------------------: |
-| ![screenshot](/documentation/validator/validate.png) | ![screenshot](documentation/validator/validate_1.png) |
+- [Testing](TESTING.md)
 
 <em>2.4 Incorporate images that are of sufficient resolution to not appear pixelated or stretched.</em>
 

@@ -27,7 +27,7 @@ Return back to the [README.md](README.md) file.
 
 </details>
 
-## Code Validation (HTML & CSS Validation is mentioned in the readme.md file)
+## Code Validation
 
 ### HTML
 
@@ -90,15 +90,15 @@ I have tested my deployed project using the [WAVE](https://wave.webaim.org/repor
 
 ![screenshot](documentation/browser/wave.png) |
 
-A couple of minor contrast errors for the font color. I would go back to the planning stage and change these so that my designs would be better for the end users that have accessability needs.
+A couple of alerts but no errors
 
 ## Lighthouse Audit
 
 I have tested my deployed project using the Lighthouse Audit tool that is in chrome. This helped me to check for any issues.
 
-![screenshot](documentation/browser/lighthouse.png) | ![screenshot](documentation/browser/lighthouse_errors.png) | Few warnings about best practices |
+![screenshot](documentation/browser/lighthouse.png)
 
-- I am able to ignore these as I can not get HTTPS on github pages.
+- I had one issue where I forgot to upload the favicon and this is now sorted.
 
 ## User Story Testing
 
