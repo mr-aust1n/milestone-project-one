@@ -47,7 +47,7 @@ Below are two mockup images of the Yap Marketing website created using the adobe
 
 |                    Main pages                     |
 | :-----------------------------------------------: |
-| ![screenshot](documentation/ux/dt-wireframes.png) |
+| ![screenshot](documentation/ux/mb-wireframes.png) |
 
 <em>1.1 Create a structured website with a main navigation menu.</em>
 
@@ -68,7 +68,7 @@ Below are two mockup images of the Yap Marketing website created using the adobe
 
 <em>1.3 Organise information hierarchically for intuitive navigation.</em>
 
-- I met the requirements by creating a static website featuring a <header> and <nav> to provide a clear structure for both the user and the browser. I used headers, such as h1 and h2, to establish a logical hierarchy, ensuring the content is easy to navigate and understand. The navigation menu enables seamless movement between pages, while information is organised and prioritised to facilitate quick access around the site.
+- I met the requirements by creating a static website featuring a 'header' and 'nav' to provide a clear structure for both the user and the browser. I used headers, such as h1 and h2, to establish a logical hierarchy, ensuring the content is easy to navigate and understand. The navigation menu enables seamless movement between pages, while information is organised and prioritised to facilitate quick access around the site.
 
   |                     Static                     |
   | :--------------------------------------------: |
@@ -93,13 +93,13 @@ Below are two mockup images of the Yap Marketing website created using the adobe
 <em> 1.6 Design the site to allow the user to initiate and control actions such as pop-ups and playing of audio/video.</em>
 
 - After discussing with my mentor, I was advised that including a video was not essential, as the example provided was only a suggestion, indicated by the phrase "such as." Wanting to challenge myself, I chose to implement a Swiper.js carousel instead on pages 'websites' and 'social media'. This feature allows users to swipe through the carousel section on mobile devices, giving them control over navigation and enhancing interactivity.
-  Additionally, I added a 'Call' button to the website, enabling users to initiate a phone call with a single click or tap. This functionality works on mobile devices or through desktop applications like Skype. These features demonstrate how users can initiate and control actions on the site. In a future release, I’d have a ‘Call Now’ on mobile and ‘Email Now’ on desktop.
+  Additionally, I added a 'Call' button to the website, enabling users to initiate a phone call with a single click or tap. This functionality works on mobile devices or through desktop applications like Skype. These features demonstrate how users can initiate and control actions on the site. In a future release, I’d have a ‘Call Now’ on mobile and ‘Email Now’ on desktop. I have also added a 'read more' to allow the user to see more about the current section the are reading. This allows the user to interact but clicking the 'read more' and the section will display the hidden text.
 
   |                     Swiper                      |                       Call                       |
   | :---------------------------------------------: | :----------------------------------------------: |
   | ![screenshot](documentation/browser/swiper.png) | ![screenshot](documentation/browser/callnow.png) |
 
-|                    Read Me: Before                    |                    Read Me: After                    |
+|                   Read More: Before                   |                   Read More: After                   |
 | :---------------------------------------------------: | :--------------------------------------------------: |
 | ![screenshot](documentation/browser/readmeBefore.png) | ![screenshot](documentation/browser/readmeAfter.png) |
 
@@ -233,9 +233,9 @@ This highlights your efforts to maintain clarity while keeping the project simpl
 
 - All images are lowercase and if they are two words a hyphen was used between the words as this is better for google seo.
 
-|                      Lowercase                       |
-| :--------------------------------------------------: |
-| ![screenshot](documentation/deploy/local_deploy.png) |
+|                     Lowercase                     |
+| :-----------------------------------------------: |
+| ![screenshot](documentation/deploy/lowercase.png) |
 
 <em>3.9 Group files in directories by file type (e.g. an assets directory will contain all static files and may be organized into sub-directories such as CSS, images, etc.)</em>
 
